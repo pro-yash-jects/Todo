@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+.nav {
+  margin: 0px;
+  width: 100%;
+  background-color: rgb(7, 107, 107);
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  width: 15px;
+  height: 15px;
+  font-size: xx-small;
+  font-weight: 1000;
+  text-align: center;
+  padding: 0px;
+}
+.new {
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+  font-size: xx-large;
+  margin-left: 80%;
+  background-color: rgb(7, 107, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day,
+.date {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10%;
+}
+.cards {
+  display: grid;
+  margin-left: 12%;
+  gap: 5px;
+}
+.card {
+  background-color: rgb(42, 41, 41);
+  padding: 10px;
+  margin: 2px;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
