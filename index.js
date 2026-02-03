@@ -6,10 +6,10 @@ let day = date.getDate();
 document.getElementById("date").innerHTML = month + " " + day + "," + year;
 
 // Create a new todo
-var c = 1;
+let c = 1;
 function NewTodo() {
   let divc = document.createElement("button");
-  var todo = prompt("What would you like to do?");
+  let todo = prompt("What would you like to do?");
   divc.innerHTML = todo;
   divc.setAttribute("class", "card");
   divc.setAttribute("id", c);
